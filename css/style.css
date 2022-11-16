@@ -13,3 +13,35 @@
   COMMON 
 ----------*/
 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: beige;
+}
+
+.container{
+    width: 62.5rem;
+    text-align: center;
+    padding: 1.5625rem 1.5625rem;
+    background-color: white;
+}
+
+/*---------
+  CORE 
+----------*/
+
+.main-title{
+    padding-bottom: .3125rem;
+    border-bottom: .0625rem solid black;
+}
+
+.mail-list{
+    margin-top: .625rem;
+}
+
+.list-item{
+    padding: .625rem;
+}
