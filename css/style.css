@@ -26,6 +26,7 @@ body{
     width: 62.5rem;
     text-align: center;
     padding: 1.5625rem 1.5625rem;
+    border-radius: .625rem;
     background-color: white;
 }
 
