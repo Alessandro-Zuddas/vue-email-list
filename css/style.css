@@ -45,3 +45,8 @@ body{
 .list-item{
     padding: .625rem;
 }
+
+.loading-text{
+    color: gray;
+    padding-top: .9375rem;
+}

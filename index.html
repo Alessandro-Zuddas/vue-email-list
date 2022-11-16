@@ -26,12 +26,14 @@
             
             <div class="container">
                 <h1 class="main-title">Spam Mail list</h1>
-
-                <ul class="mail-list">
+                
+                <ul v-if="mails.length >= 10" class="mail-list">
                     <li class="list-item" v-for="mail in mails">
                         <strong>{{ mail }}</strong>
                     </li>
                 </ul>
+
+                <h2 class="loading-text" v-else>Caricamento...</h2>
             </div>
 
         </div>
