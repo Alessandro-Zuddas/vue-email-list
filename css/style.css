@@ -40,6 +40,7 @@ body{
 }
 
 .mail-list{
+    list-style: none;
     margin-top: .625rem;
 }
 
